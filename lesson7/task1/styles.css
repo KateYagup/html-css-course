@@ -17,17 +17,16 @@ a:hover {
     font-size: 24px;
 }
 
-button:disabled {
+.some-button:disabled {
     border: 2px dashed grey;
 }
 
-button:enabled {
+.some-button:enabled {
     background-color: white;
 }
 
-button:enabled:hover {
+.some-button:enabled:hover {
     background-color: grey;
-    font-size: 24px;
 }
 
 input:focus {
