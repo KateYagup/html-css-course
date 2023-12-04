@@ -2,12 +2,12 @@ li {
     margin-bottom: 16px;
 }
 
-ol>li {
+ol {
     background-color: green;
     color: white;
 }
 
-ul>li {
+ul {
     background-color: orange;
     color: white;
 }
@@ -16,6 +16,6 @@ ul>li {
     border: 3px solid red;
 }
 
-#special~li {
+#special~li>span {
     margin-left: 16px;
 }
