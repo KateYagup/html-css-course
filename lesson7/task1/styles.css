@@ -21,12 +21,9 @@ a:hover {
     border: 2px dashed grey;
 }
 
-.some-button:enabled {
-    background-color: white;
-}
-
-.some-button:enabled:hover {
+.some-button:hover:enabled {
     background-color: grey;
+    color: white;
 }
 
 input:focus {
